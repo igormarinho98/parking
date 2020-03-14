@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://igor.mongodb:123456@localhost:27017/parking', { useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb://username:password@localhost:27017/parking', { useNewUrlParser: true, useUnifiedTopology: true});
 
 var db = mongoose.connection;
 
